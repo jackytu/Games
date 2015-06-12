@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A607DD411B2A6294003B00B5 /* GamePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A607DD401B2A6294003B00B5 /* GamePickerViewController.swift */; };
 		A666A6331AFFADAF0031A361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666A6321AFFADAF0031A361 /* AppDelegate.swift */; };
 		A666A6351AFFADAF0031A361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666A6341AFFADAF0031A361 /* ViewController.swift */; };
 		A666A6381AFFADAF0031A361 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A666A6361AFFADAF0031A361 /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 		A666A6861AFFB1570031A361 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666A6851AFFB1570031A361 /* Player.swift */; };
 		A666A6881AFFB1790031A361 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666A6871AFFB1790031A361 /* SampleData.swift */; };
 		A666A68C1AFFB3E50031A361 /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666A68B1AFFB3E50031A361 /* PlayerCell.swift */; };
+		A684D95F1B29D7EC005924E3 /* PlayerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A684D95E1B29D7EC005924E3 /* PlayerDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A607DD401B2A6294003B00B5 /* GamePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePickerViewController.swift; sourceTree = "<group>"; };
 		A666A62D1AFFADAF0031A361 /* Games.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Games.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A666A6311AFFADAF0031A361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A666A6321AFFADAF0031A361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		A666A6851AFFB1570031A361 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		A666A6871AFFB1790031A361 /* SampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		A666A68B1AFFB3E50031A361 /* PlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		A684D95E1B29D7EC005924E3 /* PlayerDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,8 @@
 				A666A6321AFFADAF0031A361 /* AppDelegate.swift */,
 				A666A6341AFFADAF0031A361 /* ViewController.swift */,
 				A666A6361AFFADAF0031A361 /* Main.storyboard */,
+				A607DD401B2A6294003B00B5 /* GamePickerViewController.swift */,
+				A684D95E1B29D7EC005924E3 /* PlayerDetailViewController.swift */,
 				A666A68B1AFFB3E50031A361 /* PlayerCell.swift */,
 				A666A6851AFFB1570031A361 /* Player.swift */,
 				A666A6871AFFB1790031A361 /* SampleData.swift */,
@@ -328,8 +334,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A607DD411B2A6294003B00B5 /* GamePickerViewController.swift in Sources */,
 				A666A68C1AFFB3E50031A361 /* PlayerCell.swift in Sources */,
 				A666A6861AFFB1570031A361 /* Player.swift in Sources */,
+				A684D95F1B29D7EC005924E3 /* PlayerDetailViewController.swift in Sources */,
 				A666A6351AFFADAF0031A361 /* ViewController.swift in Sources */,
 				A666A6331AFFADAF0031A361 /* AppDelegate.swift in Sources */,
 				A666A6881AFFB1790031A361 /* SampleData.swift in Sources */,
@@ -529,6 +537,7 @@
 				A666A64E1AFFADB00031A361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A666A64F1AFFADB00031A361 /* Build configuration list for PBXNativeTarget "GamesTests" */ = {
 			isa = XCConfigurationList;
@@ -537,6 +546,7 @@
 				A666A6511AFFADB00031A361 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
